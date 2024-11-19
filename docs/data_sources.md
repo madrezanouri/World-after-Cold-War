@@ -8,7 +8,7 @@ This project analyzes global economic and demographic trends since 1991, using d
 ## Data Sources
 1. **Economic Indicators**  
    - **Sources**: World Bank Open Data ([https://data.worldbank.org](https://data.worldbank.org))
-    Trading Econimics ([https://tradingeconomics.com/united-states/indicators])
+Trading Econimics ([https://tradingeconomics.com/united-states/indicators])
                   International Monetary Fund ([(https://www.imf.org/en/Home)])
                   Macrotrends ([https://www.macrotrends.net/])
                   Ycharts ([https://ycharts.com/])
