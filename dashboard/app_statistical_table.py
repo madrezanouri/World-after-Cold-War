@@ -2,84 +2,104 @@ import dash
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output
 import pandas as pd
+import plotly.express as px
 
 # Load the processed dataset
-df = pd.read_csv("../data/processed/master_data.csv")
+df = pd.read_csv("master_data.csv")
 
 # Initialize Dash app
 app = dash.Dash(__name__)
-app.title = "Statistical Tables Dashboard"
+app.title = "Statistical Summary Dashboard"
 
 # App layout
 app.layout = html.Div([
-    html.H1("Statistical Tables Dashboard", style={"text-align": "center"}),
+    html.Div(
+        html.H1("Statistical Summary Dashboard", style={"text-align": "center", "color": "#2c3e50", "font-family": "Arial"}),
+        style={"background-color": "#ecf0f1", "padding": "10px"}
+    ),
 
-    # Dropdown for selecting countries
+    # Country selector
     html.Div([
-        html.Label("Select Country:"),
+        html.Label("Select Country:", style={"font-size": "16px", "font-weight": "bold"}),
         dcc.Dropdown(
             id="country_selector",
-            options=[{"label": country, "value": country} for country in sorted(df["country"].unique())],
+            options=[{"label": country, "value": country} for country in sorted(df["Country"].unique())],
             value="United States",  # Default value
-            multi=False
+            multi=False,
+            style={"font-size": "14px"}
         )
-    ], style={"width": "50%", "margin": "auto", "margin-top": "20px"}),
+    ], style={"width": "50%", "margin": "20px auto"}),
 
-    # Dropdown for selecting indicators
+    # Indicator selector
     html.Div([
-        html.Label("Select Indicator:"),
+        html.Label("Select Indicator:", style={"font-size": "16px", "font-weight": "bold"}),
         dcc.Dropdown(
             id="indicator_selector",
-            options=[{"label": col, "value": col} for col in df.columns if col not in ["country", "year"]],
+            options=[{"label": col, "value": col} for col in df.columns if col not in ["Country", "Year"]],
             value="gdp_growth_rate",  # Default value
-            multi=False
+            multi=False,
+            style={"font-size": "14px"}
         )
-    ], style={"width": "50%", "margin": "auto", "margin-top": "20px"}),
+    ], style={"width": "50%", "margin": "20px auto"}),
 
-    # Range slider for selecting years
+    # Data table for .describe() output
     html.Div([
-        html.Label("Select Year Range:"),
-        dcc.RangeSlider(
-            id="year_slider",
-            min=df["year"].min(),
-            max=df["year"].max(),
-            step=1,
-            value=[df["year"].min(), df["year"].max()],
-            marks={str(year): str(year) for year in range(df["year"].min(), df["year"].max() + 1, 5)}
-        )
-    ], style={"width": "80%", "margin": "auto", "margin-top": "20px"}),
-
-    # Data table
-    html.Div([
+        html.Label("Statistical Summary Table:", style={"font-size": "18px", "font-weight": "bold", "text-align": "center"}),
         dash_table.DataTable(
-            id="stat_table",
-            columns=[{"name": col, "id": col} for col in df.columns],
-            style_table={"overflowX": "auto"},
-            style_cell={"textAlign": "center", "fontFamily": "Arial"},
-            style_header={"fontWeight": "bold", "backgroundColor": "#f4f4f4"},
+            id="describe_table",
+            columns=[{"name": "Statistic", "id": "Statistic"}, {"name": "Value", "id": "Value"}],
+            style_table={"overflowX": "auto", "margin": "20px auto"},
+            style_cell={"textAlign": "center", "fontFamily": "Arial", "font-size": "14px"},
+            style_header={"fontWeight": "bold", "backgroundColor": "#bdc3c7", "color": "#2c3e50"},
             style_data_conditional=[
-                {"if": {"row_index": "odd"}, "backgroundColor": "#f9f9f9"}
+                {"if": {"row_index": "odd"}, "backgroundColor": "#ecf0f1"}
             ]
         )
-    ], style={"margin": "20px"})
+    ], style={"width": "80%", "margin": "auto"}),
+
+    # Visualization of the statistical data
+    html.Div([
+        dcc.Graph(id="describe_chart")
+    ], style={"width": "80%", "margin": "20px auto"})
 ])
 
-# Callback to update the table
+# Callback to update the .describe() table and visualization
 @app.callback(
-    Output("stat_table", "data"),
-    Input("country_selector", "value"),
-    Input("indicator_selector", "value"),
-    Input("year_slider", "value")
+    [Output("describe_table", "data"),
+     Output("describe_chart", "figure")],
+    [Input("country_selector", "value"),
+     Input("indicator_selector", "value")]
 )
-def update_table(selected_country, selected_indicator, year_range):
-    # Filter dataset
-    filtered_df = df[(df["country"] == selected_country) &
-                     (df["year"] >= year_range[0]) &
-                     (df["year"] <= year_range[1])]
+def update_dashboard(selected_country, selected_indicator):
+    # Filter the dataset for the selected country
+    filtered_df = df[df["Country"] == selected_country]
 
-    # Return only selected indicator columns
-    return filtered_df[["year", "country", selected_indicator]].to_dict("records")
+    # Apply .describe() to the selected indicator
+    describe_data = filtered_df[selected_indicator].describe()
+
+    # Convert .describe() output to a table format
+    describe_table = describe_data.reset_index()
+    describe_table.columns = ["Statistic", "Value"]
+
+    # Remove the "count" statistic for visualization
+    describe_table_no_count = describe_table[describe_table["Statistic"] != "count"]
+
+    # Create a bar chart for .describe() statistics (excluding "count")
+    fig = px.bar(
+        describe_table_no_count,
+        x="Statistic",
+        y="Value",
+        title=f"Statistical Summary for {selected_indicator} in {selected_country}",
+        labels={"Value": "Value", "Statistic": "Statistic"},
+        template="plotly_white"
+    )
+    fig.update_layout(title_font_size=18, xaxis_title=None, yaxis_title=None)
+
+    # Return both the table data and chart figure
+    return describe_table.to_dict("records"), fig
+
 
 # Run the app
 if __name__ == "__main__":
     app.run_server(debug=True)
+
