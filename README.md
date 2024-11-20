@@ -34,8 +34,8 @@ Before delving into the crises themselves, we first need to understand the econo
 
 ### Population Analysis and Fertility rate:
 
-![Population Analysis1](images/populatio_analysis_combined01.png)
-![Population Analysis2](images/populatio_analysis_combined02.png)
+![Population Analysis1](images/population_analysis_combined01.png)
+![Population Analysis2](images/population_analysis_combined02.png)
 
 ![Fertility Rate Analysis1](images/fertility_rate_analysis01.png)
 ![Fertility Rate Analysis2](images/fertility_rate_analysis02.png)
