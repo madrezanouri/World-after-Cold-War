@@ -2,6 +2,8 @@
 
 ![Cover image](images/cold-war-map.png)
 
+ 
+ 
 ## 1. Introduction: From Crisis to Crisis - How the World Economy Was Transformed
 
 **"In late 2008, the world watched as Lehman Brothers, a major investment bank, collapsed, triggering a financial tsunami that left millions unemployed and entire economies in freefall. Fast forward to 2020, empty streets and shuttered businesses marked an eerie silence as Covid-19 spread across the globe, halting production, mobility, and the very essence of normal life."**
