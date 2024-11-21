@@ -138,3 +138,62 @@ Between 1991 and 2006, the world economy was a complex puzzle. Nations faced uni
 1. **Divergent Unemployment Paths**: US success, German struggles, and South African socio-economic challenges.
 2. **Trade Balance Dichotomy**: US deficits vs. German and Chinese surpluses, highlighting each country's global economic position.
 3. **Globalization's Varied Impact**: Nations responded differently to globalization, policy choices, and economic events, shaping their economic destinies.
+
+
+  ### ACT II
+
+
+### Shockwaves: The 2008 Global Slowdown Hits
+
+Welcome to 2008. Our heatmap of Real GDP Growth Rates paints a stark picture: dark red dominates the landscape, signaling contraction in many countries.
+
+![gdp_growth_heatmap_2006_2016](images/gdp_growth_heatmap_2006_2016.png)
+
+The average GDP growth rate bar plot drives the point home – the entire world economy felt the impact. GDP growth rates plummeted, with many countries facing negative growth in 2009. The global economy was in turmoil, struggling to adjust to the crisis.
+
+![gdp_growth_barplot_2006_2016](images/gdp_growth_barplot_2006_2016.png)
+
+**Key Insight:**
+The 2008 financial crisis was a global phenomenon, with no country left unscathed.
+
+**Valuable Lesson:** 
+Interconnected economies mean that local shocks can have far-reaching consequences.
+
+
+### Lives Turned Upside Down: The Unemployment Surge
+
+Behind the economic numbers, people's lives were turned upside down. Our boxplot of Unemployment Rates (2006-2016) reveals the human cost of the crisis – job losses soared as businesses struggled to survive. Between 2008 and 2010, unemployment rates peaked across multiple countries, with some nations facing even more extreme hardships (visible as outliers). The road to recovery was long and arduous, with some economies still grappling with high unemployment in 2016.
+
+![unemployment_boxplot_2006_2016](images/unemployment_boxplot_2006_2016.png)
+
+**Key Insight:**
+The crisis had a devastating impact on employment, with some countries taking years to recover.
+
+**Actionable Advice:**
+Governments and businesses must prioritize job creation and support during economic downturns.
+
+
+### Ripples Across Borders: Trade and Interdependence
+
+The crisis sent shockwaves through global trade, disrupting the flow of international goods and services. Our stacked area chart for Net Trade in Goods and Services illustrates the deep impact on countries like the United States, which faced significant trade deficits. The slowdown in international trade highlights the interconnectedness of economies – the crisis was not just a domestic issue, but a global problem requiring coordinated solutions.
+
+![net_trade_stacked_area_2006_2016](images/net_trade_stacked_area_2006_2016.png)
+
+**Key Insight:**
+Global trade is deeply interconnected, making it vulnerable to economic shocks.
+
+**Strategic Recommendation:** 
+Diversify trade relationships and foster international cooperation to mitigate future risks.
+
+
+### A Gradual Rebuild: Resilience and Contributions
+
+Amidst the turmoil, resilience shone through. Our sunburst chart for Regional Contributions to Global GDP (2006-2016) showcases how major economies like China and the United States adapted and contributed to the global recovery. While Western economies stumbled, China's growth played a crucial role in leading the world out of the downturn. This visualization highlights the shifting economic power dynamics and the importance of key players in the recovery phase.
+
+![gdp_sunburst_2006_2016](images/gdp_sunburst_2006_2016.png)
+
+**Key Insight:** 
+Economic resilience and adaptability are crucial for leading global recovery efforts.
+
+**Forward-Looking Strategy:** 
+Foster economic cooperation and encourage the growth of emerging economies to drive future global prosperity.
