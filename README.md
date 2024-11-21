@@ -52,6 +52,8 @@ Japan: Plateaued after the economic bubble burst, experiencing a "Lost Decade" w
 Brazil & South Africa: Fluctuating but positive growth, showcasing resilience amidst global challenges.
 The Big Picture: The late 20th and early 21st centuries saw the West stabilizing, while the East, led by China, redefined the pace of economic growth. This set the stage for significant global economic shifts, highlighting the diverse impacts of technological advancements, economic reforms, and geopolitical events on national economies.
 
+Now let's take a look at population analysis.
+
 ### Population Analysis and Fertility rate:
 
 ![Population Analysis1](images/population_analysis_combined01.png)
