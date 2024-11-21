@@ -197,3 +197,40 @@ Economic resilience and adaptability are crucial for leading global recovery eff
 
 **Forward-Looking Strategy:** 
 Foster economic cooperation and encourage the growth of emerging economies to drive future global prosperity.
+
+### ACT III
+
+**The Second Tsunami Big Wave (2016-2024)**
+
+As we conclude our journey through the complexities of the global economy, ACT III presents a tale of two challenges: the trade war and the pandemic. These events have reshaped the economic landscape, testing the resilience of nations. Let's dive into the four pivotal plots that illustrate this transformative period.
+
+### 1. Trade War: China's Perfect Storm (2016-2019)
+
+![net_trade_exports_line_chart_2016_2024](images/net_trade_exports_line_chart_2016_2024.png)
+![net_trade_stacked_area_2016_2024](images/net_trade_stacked_area_2016_2024.png)
+
+- **The Plot Thickens:** Our line chart exposes the trade war's devastating impact on China's net exports, plummeting under U.S. pressure.
+- **Global Ripple Effects:** While China struggled, Germany and India maintained stable trade, indicating a targeted U.S. approach.
+- **Valuable Insight:** Diversification is key; China's reliance on U.S. trade left it vulnerable to policy shifts.
+
+### 2. Pandemic Unemployment: A Global Reckoning (2020-2022)
+
+![unemployment_barplot_pandemic_2018_2022](images/unemployment_barplot_pandemic_2018_2022.png)
+
+- **Unemployment Tsunami:** Our bar chart vividly depicts the pandemic's brutal impact on job markets worldwide, with South Africa's rates soaring above 25%.
+- **Global Shutdown:** Peaks in 2020 and 2021 underscore the pandemic's crippling effect on businesses and economies.
+- **Key Takeaway:** Economic resilience is crucial; nations with robust support systems weathered the storm better.
+
+### 3. The Population Growth Conundrum: A Pandemic Accelerant (2020-2024)
+
+![enhanced_population_growth_decline_line_2016_2024](images/enhanced_population_growth_decline_line_2016_2024.png)
+
+- **eclining Growth Rates:** Our plot reveals the pandemic's role in accelerating existing trends, pushing most countries below the 1% growth threshold.
+- **Demographic Concerns:** Germany and Japan's already-low growth rates hit unprecedented lows, foreshadowing potential productivity challenges.
+- **Valuable Insight:** Adaptation is essential; nations must address demographic shifts to maintain economic vitality.
+
+### 4. Net Trade Recovery: China's Resurgence (2021-2024)
+
+- **Post-Pandemic Rebound:** Our stacked area chart showcases China's remarkable recovery, capitalizing on global demand to regain trade momentum.
+- **Diverging Fortunes:** The U.S. trade deficit persists, highlighting China's adeptness in navigating the new economic landscape.
+- **Key Takeaway: Agility is a competitive advantage;** China's swift response enabled its resurgence.
