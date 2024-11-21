@@ -106,14 +106,12 @@ Sex Ratio Imbalances in China and India, highlighting cultural influences with s
 ![Unemployment Trade Analysis1](images/unemployment_trade_analysis01.png)
 ![Unemployment Trade Analysis2](images/unemployment_trade_analysis02.png)
 
-Here is a shortened, humanized version of the text, with a slightly different format to provide a diverse and engaging report, along with a suggested **Description** for sharing purposes:
-
-**Description (for sharing)**
-"Explore the Economic Puzzle (1991-2006): Unemployment & Trade Trends. Discover how nations navigated challenges, seized opportunities, and reshaped their economic destinies."
 
 **Economic Snapshots: Unemployment & Trade (1991-2006)**
 
 **Unemployment: A Mixed Bag**
+
+Let's have a look at unemployment and net trade indicators' key insights related to some major important historical and economic events:
 
 | **Country** | **Unemployment Trend** | **Key Insight** |
 | --- | --- | --- |
