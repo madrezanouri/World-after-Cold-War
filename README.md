@@ -35,18 +35,18 @@ Before delving into the crises themselves, we first need to understand the econo
 
 Imagine the world economy as a dynamic, ever-changing landscape. Between 1991 and 2006, major economies took vastly different paths. Here's what happened:
 
-The Unstoppable:
+**The Unstoppable:**
 
 US: Steady, upward growth, driven by tech innovation and financial services expansion.
 China: Remarkable spike in GDP per capita in the early 1990s, marking the beginning of its rapid industrialization and global integration.
 
-The Steady but Slow:
+**The Steady but Slow:**
 
 UK: Stable, yet slower growth, characteristic of a mature economy.
 Germany: Modest gains with dips, influenced by post-reunification challenges.
 France & Australia: Steady performers, with Australia benefiting from effective policies and commodity prosperity.
 
-The Stagnant and the Rising:
+**The Stagnant and the Rising:**
 
 Japan: Plateaued after the economic bubble burst, experiencing a "Lost Decade" with minimal growth.
 Brazil & South Africa: Fluctuating but positive growth, showcasing resilience amidst global challenges.
@@ -62,6 +62,31 @@ Now let's take a look at population analysis.
 ![Fertility Rate Analysis1](images/fertility_rate_analysis01.png)
 ![Fertility Rate Analysis2](images/fertility_rate_analysis02.png)
 
+So as you can see between 1991 and 2006, the world witnessed significant demographic changes. Here are the key highlights:
+
+**Fertility Rate Decline: A Global Phenomenon**
+
+India: Dropped from 4 to 3+ live births/woman, driven by improved healthcare, education, and family planning.
+China: Maintained low rates (<2 births/woman) due to strict family planning policies (e.g., one-child policy).
+South Africa: Decreased from 3.5+ to 3 births/woman, reflecting improved socio-economic conditions.
+Western Countries (US, Germany, UK): Stable, low rates (<2.1 births/woman), characteristic of mature economies.
+
+**Population Growth Rate: Diverging Paths**
+
+India: High, yet declining, growth rates due to gradually falling fertility rates.
+China: Moderate, decreasing growth (1% to <0.5%) due to population control policies.
+Germany & Japan: Stagnating/declining rates, highlighting aging population challenges.
+
+**Sex Ratio Insights:**
+
+China & India: Higher sex ratios, indicating cultural preferences for male children, with potential long-term social implications.
+Western Countries (Germany, France): Balanced sex ratios, reflecting greater gender equality.
+
+### Between 1991 and 2006, the world saw:
+
+Global Shift to Smaller Families, driven by improved education, healthcare, and changing socio-economic conditions.
+Diverging Population Growth Paths: Emerging markets (e.g., India) with positive growth, vs. developed economies (e.g., Germany, Japan) facing aging populations.
+Sex Ratio Imbalances in China and India, highlighting cultural influences with significant long-term implications for gender equity and societal structures.
 
 ### Unemployment vs Net in Goods and Services:
 
