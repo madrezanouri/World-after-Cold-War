@@ -38,6 +38,7 @@ Imagine the world economy as a dynamic, ever-changing landscape. Between 1991 an
 **The Unstoppable:**
 
 US: Steady, upward growth, driven by tech innovation and financial services expansion.
+
 China: Remarkable spike in GDP per capita in the early 1990s, marking the beginning of its rapid industrialization and global integration.
 
 **The Steady but Slow:**
