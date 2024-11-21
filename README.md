@@ -74,19 +74,25 @@ So as you can see between 1991 and 2006, the world witnessed significant demogra
 **Fertility Rate Decline: A Global Phenomenon**
 
 India: Dropped from 4 to 3+ live births/woman, driven by improved healthcare, education, and family planning.
+
 China: Maintained low rates (<2 births/woman) due to strict family planning policies (e.g., one-child policy).
+
 South Africa: Decreased from 3.5+ to 3 births/woman, reflecting improved socio-economic conditions.
+
 Western Countries (US, Germany, UK): Stable, low rates (<2.1 births/woman), characteristic of mature economies.
 
 **Population Growth Rate: Diverging Paths**
 
 India: High, yet declining, growth rates due to gradually falling fertility rates.
+
 China: Moderate, decreasing growth (1% to <0.5%) due to population control policies.
+
 Germany & Japan: Stagnating/declining rates, highlighting aging population challenges.
 
 **Sex Ratio Insights:**
 
 China & India: Higher sex ratios, indicating cultural preferences for male children, with potential long-term social implications.
+
 Western Countries (Germany, France): Balanced sex ratios, reflecting greater gender equality.
 
 ### Between 1991 and 2006, the world saw:
