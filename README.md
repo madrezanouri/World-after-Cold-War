@@ -33,6 +33,24 @@ Before delving into the crises themselves, we first need to understand the econo
 ![GDP Analysis2](images/gdp_analysis_combined02.png)
 
 
+Imagine the world economy as a dynamic, ever-changing landscape. Between 1991 and 2006, major economies took vastly different paths. Here's what happened:
+
+The Unstoppable:
+
+US: Steady, upward growth, driven by tech innovation and financial services expansion.
+China: Remarkable spike in GDP per capita in the early 1990s, marking the beginning of its rapid industrialization and global integration.
+
+The Steady but Slow:
+
+UK: Stable, yet slower growth, characteristic of a mature economy.
+Germany: Modest gains with dips, influenced by post-reunification challenges.
+France & Australia: Steady performers, with Australia benefiting from effective policies and commodity prosperity.
+
+The Stagnant and the Rising:
+Japan: Plateaued after the economic bubble burst, experiencing a "Lost Decade" with minimal growth.
+Brazil & South Africa: Fluctuating but positive growth, showcasing resilience amidst global challenges.
+The Big Picture: The late 20th and early 21st centuries saw the West stabilizing, while the East, led by China, redefined the pace of economic growth. This set the stage for significant global economic shifts, highlighting the diverse impacts of technological advancements, economic reforms, and geopolitical events on national economies.
+
 ### Population Analysis and Fertility rate:
 
 ![Population Analysis1](images/population_analysis_combined01.png)
