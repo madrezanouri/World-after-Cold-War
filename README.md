@@ -23,6 +23,8 @@ We will compare these two crises to understand how different sectors and countri
 - **Countries of Focus**: We cover **ten leading economies**, including the United States, China, Germany, and emerging markets such as India and Brazil.
 - **Indicators Considered**: GDP in trillion, GDP growth, unemployment, population growth, fertility rates, Population Sex Ratio, and Net in Goods and Services are core to understanding the ripple effects of these crises.
 
+  ### ACT I
+
 ### Setting the Scene: The Calm Before the Storm
 Before delving into the crises themselves, we first need to understand the economic landscape that preceded these major disruptions. The years leading up to **2008** were characterized by rapid economic growth, fueled by globalization, technological advancements, and expanding labor forces. From the United States to China, economies enjoyed robust growth, with rising GDPs and growing populations.
 
