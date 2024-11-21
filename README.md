@@ -47,6 +47,7 @@ Germany: Modest gains with dips, influenced by post-reunification challenges.
 France & Australia: Steady performers, with Australia benefiting from effective policies and commodity prosperity.
 
 The Stagnant and the Rising:
+
 Japan: Plateaued after the economic bubble burst, experiencing a "Lost Decade" with minimal growth.
 Brazil & South Africa: Fluctuating but positive growth, showcasing resilience amidst global challenges.
 The Big Picture: The late 20th and early 21st centuries saw the West stabilizing, while the East, led by China, redefined the pace of economic growth. This set the stage for significant global economic shifts, highlighting the diverse impacts of technological advancements, economic reforms, and geopolitical events on national economies.
