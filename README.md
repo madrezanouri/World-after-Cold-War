@@ -44,14 +44,20 @@ China: Remarkable spike in GDP per capita in the early 1990s, marking the beginn
 **The Steady but Slow:**
 
 UK: Stable, yet slower growth, characteristic of a mature economy.
+
 Germany: Modest gains with dips, influenced by post-reunification challenges.
+
 France & Australia: Steady performers, with Australia benefiting from effective policies and commodity prosperity.
 
 **The Stagnant and the Rising:**
 
 Japan: Plateaued after the economic bubble burst, experiencing a "Lost Decade" with minimal growth.
+
 Brazil & South Africa: Fluctuating but positive growth, showcasing resilience amidst global challenges.
-The Big Picture: The late 20th and early 21st centuries saw the West stabilizing, while the East, led by China, redefined the pace of economic growth. This set the stage for significant global economic shifts, highlighting the diverse impacts of technological advancements, economic reforms, and geopolitical events on national economies.
+
+**The Big Picture:**
+
+The late 20th and early 21st centuries saw the West stabilizing, while the East, led by China, redefined the pace of economic growth. This set the stage for significant global economic shifts, highlighting the diverse impacts of technological advancements, economic reforms, and geopolitical events on national economies.
 
 Now let's take a look at population analysis.
 
