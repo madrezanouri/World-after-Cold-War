@@ -13,7 +13,7 @@ These two monumental events—**the 2008 financial crisis** and the **Covid-19 p
 ### Objective of the Report
 The goal of this analysis is to explore the intertwined effects of the 2008 financial crisis and the COVID-19 pandemic on:
 - **Economic Indicators**: GDP growth rates, unemployment rates, government debt.
-- **Population Dynamics**: Population growth, fertility rates, migration trends.
+- **Population Dynamics**: Population growth, fertility rates, Population sex ratio.
 - **Military Spending**: Shifts in military priorities before, during, and after each crisis.
 
 We will compare these two crises to understand how different sectors and countries fared, what measures were taken, and what long-term shifts have occurred across global economies.
